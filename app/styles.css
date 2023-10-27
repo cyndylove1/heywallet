@@ -904,6 +904,7 @@ form .address:hover{
     }
     .services-content{
         flex-direction: column;
+        /* margin-right: 5%; */
     
     }
     /* services section ends here */
@@ -1154,7 +1155,7 @@ form .address:hover{
         margin-right: 30%;
     }
     .about-img{
-        margin-right: 20%;
+        margin-right: 25%;
 
     }
     .img5{
@@ -1169,9 +1170,12 @@ form .address:hover{
     }
     .services{
         height: 1000px;
+        /* padding: 0 3%; */
+        /* margin-right: 5%; */
     }
     .services-content{
         flex-direction: column;
+        margin-right: 5%;
     
     }
     /* services section ends here */
@@ -1188,8 +1192,8 @@ form .address:hover{
         margin-right: 5%;
     }
     .blog-img{
-        width: 130%;
-        /* margin-left:5%; */
+        width: 160%;
+        margin-right:20%;
     }
     .blog-container h5{
         padding-top: 30px;
@@ -1424,6 +1428,7 @@ form .address:hover{
     }
     .services-content{
         flex-direction: column;
+        margin-right: 5%;
     
     }
     /* services section ends here */
@@ -1665,6 +1670,7 @@ form .address:hover{
     }
     .services-content{
         flex-direction: column;
+        margin-right: 5%;
     
     }
     /* services section ends here */
