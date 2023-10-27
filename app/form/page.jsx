@@ -1,8 +1,11 @@
  'use client'
+ import '../styles.css'
+import '../globals.css'
  import {FaRegEyeSlash} from  'react-icons/fa6'
 import {FaGoogleWallet} from 'react-icons/fa6'
 import {FaRegEye} from 'react-icons/fa6'
 import { useState } from 'react'
+import Navbar from '../Navbar/page'
 // import Navbar from '../Navbar/page'
 
 
@@ -26,6 +29,7 @@ import { useState } from 'react'
         
     <div className="form-section">
         <div> 
+            <Navbar/>
         {/* <Navbar/> */}
                 {/* <div className='form-heading'>
                     <h2><span className='fa'><FaGoogleWallet/></span>HEYWALLET</h2>

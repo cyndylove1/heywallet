@@ -1,9 +1,11 @@
- 
-//  import Navbar from '../Navbar/page'
+'use client'
+import '../styles.css'
+import '../globals.css'
+ import Navbar from '../Navbar/page'
  export default function Sign (){
     return(
         <div>
-            {/* <Navbar/> */}
+            <Navbar/>
             <div className="Sign-up">
                 <div className="title">
                     <div className="Sign-title">

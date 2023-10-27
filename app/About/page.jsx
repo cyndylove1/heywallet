@@ -20,7 +20,7 @@ import {TbBadgeFilled} from "react-icons/tb"
                 <div className="about-container">
 
                     <div className="about-img">
-                        <Image src={about} alt=""  className="img5"/>
+                        <Image src={about} alt="heywallet image"  className="img5"/>
                     </div>
                     
                 <div className="about-section">

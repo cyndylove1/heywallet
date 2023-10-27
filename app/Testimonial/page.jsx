@@ -22,8 +22,21 @@ export default function Testimonial(){
                 autoplay={{delay:3000,  disableOnInteraction:false,}}
                 // navigation={true}
                 modules={[Navigation, Autoplay]}
-                className="mySwiper">
+                className="mySwiper"
+                breakpoints={{
+                    // 280:  {
+                    //     slidesPerView : 1,
+                    //     spaceBetween: 10
+                    // },
+                    320:  {
+                        slidesPerView : 1,
+                        spaceBetween: 20
+                    },
+                    
+                }}
             
+                >
+                
                 <SwiperSlide>
 
                
