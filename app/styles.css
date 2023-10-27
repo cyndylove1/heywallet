@@ -815,6 +815,9 @@ form .address:hover{
 
 /* mobile css */
 @media screen and (max-width:349px) {
+    .logo{
+        display: none;
+    }
 
     /* hero section begins here */
     .navbar{
@@ -1081,6 +1084,9 @@ form .address:hover{
 
 
  @media  screen and (min-width: 350px) and (max-width:450px){
+    .logo{
+        display: none;
+    }
 
     /* hero section begins here*/
     .navbar{
@@ -1329,6 +1335,9 @@ form .address:hover{
  }
  
  @media screen and (min-width: 451px) and (max-width:580px){
+    .logo{
+        display: none;
+    }
 
     /* hero section begins here */
     .navbar{
@@ -1572,6 +1581,9 @@ form .address:hover{
  }
 
  @media screen and (min-width: 581px) and ( max-width: 1000px){
+    .logo{
+        display: none;
+    }
     /* hero section begins here */
     .navbar{
         display: none;
