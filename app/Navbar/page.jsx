@@ -15,7 +15,6 @@ export default function Navbar() {
      }
     window.addEventListener('scroll', changeColor)
 
-
     
 
     return(
@@ -29,9 +28,7 @@ export default function Navbar() {
 
             <nav class="navbar">
                 <ul>
-                    <Link href='#'><li>Home</li>
-                    </Link>
-                   
+                    <li><a href='#'>Home</a></li>
                     <li><a href='#'>About</a></li>
                     <li><a href='#'>Services</a></li>
                     <li><a href='#'>WhyUs</a></li>
@@ -45,6 +42,45 @@ export default function Navbar() {
                 </ul>
 
             </nav>
+
+
+
+            <nav>
+            
+            <div class="nav-mobile">
+                <div class="nav brand">
+                    <div class="logo1">
+                    <h2><span className='fa1'><FaGoogleWallet/></span>HEYWALLET</h2>
+                       
+        
+                    </div>
+                </div>
+                    <div class="hamburger-container animate__rotateOut" onclick="addandremove()">
+                        <div class="menu"></div>
+                    </div>
+                    <div class="mobile-container">
+                        <div class="mobile-links">
+                            <ul>
+                                <li><a href='#'>Home</a></li>
+                                <li><a href='#'>About</a></li>
+                                <li><a href='#'>Services</a></li>
+                                <li><a href='#'>WhyUs</a></li>
+                                <li><a href='#'>Team</a></li>
+                                <li><a href='#'>Testimonial</a></li>
+                                
+                            </ul>
+
+                        </div>
+                        
+
+                    </div>
+
+                    
+
+                
+            </div>
+        </nav>
+                
         
     </header> 
     

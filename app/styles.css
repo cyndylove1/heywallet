@@ -26,69 +26,6 @@ header{
 
 
 }
-/* .hamburger{
-    display:none;
-} */
- /* .navbar ul{
-    display:flex;
-    padding: 30px;
-    list-style:none;
-} 
-.navbar ul li a{
-    margin-left: 10px;
-    margin: 0 10px;
-    display:block;
-    color: var(--white-color);
-    text-decoration:none;
-    font-weight: 700;
-    font-size:1em;
-    padding:10px 0;
-    border-radius:20px;
-    transition:0.2s;
-    margin:0 5px;
-}
-.navbar ul li a:hover{
-    color: rgb(231, 190, 249);
-    color: white;
-    border-radius: 4px;
-    background: rgb(5, 102, 81);
-    transition: 1s;
-}
-
-.navbar li {
-    font-size: 17px;
-    padding: 10px 0px;
-    color: rgb(6, 2, 73);
-    font-weight: 700;   
-}     */
-header.sticky{
-    background: rgb(5, 102, 81);
-    padding: 10px 100px;
-    color: white;
-}
-header p{
-    padding: 10px 3px;
-    font-size: 20px;
-    font-weight:700;
-    color: rgb(6, 2, 73);
-}
-header.sticky ul li a{
-    color: white;
-
-}
-header.sticky ul li a:hover{
-    color: rgb(6, 2, 73);
-}
-header.sticky p{
-    color: white;
-}
-header.sticky i{
-    color: white;
-}
-header i{
-    color: rgb(5, 102, 81);
-
-}
 
 .main{
     height: 800px;
@@ -135,6 +72,7 @@ header i{
  .navbar {
     display: flex;
     justify-content: space-between;
+    margin-left: 12%;
     /* background-color: transparent; */
     
     
@@ -142,10 +80,12 @@ header i{
 }
 .navbar ul {
     display: flex;
+    /* border: 3px solid red; */
     align-items: center;
     padding-top: 30px;
     list-style: none;
-    margin-right: 7%;
+   
+    /* text-decoration: none; */
     
     
 }
@@ -175,7 +115,7 @@ header i{
 .logo h2{
     font-size: 20px;
     color: var(--white-color);
-    margin-left: 30px;
+    margin-left: 70px;
     padding-top: 15px;
 }
 .hero-content{
