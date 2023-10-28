@@ -9,6 +9,7 @@ import Team from './Team/page'
 import Testimonial from './Testimonial/page'
 import Cta from './Cta/page'
 import Footer from './footer/page' 
+import Mobile from './Mobile/page'
 // import Form from './form/page'
 
 
@@ -18,6 +19,7 @@ export default function Home() {
   return (
     <main>
       <Navbar/>
+      <Mobile/>
       <Hero/>
       <About/>
       <Services/>

@@ -28,6 +28,14 @@ export default function Navbar() {
 
             <nav class="navbar">
                 <ul>
+                    {/* <Link href="/">Home</Link>
+                    <Link href="/About">About</Link>
+                    <Link href="/service">Services</Link>
+                    <Link href="/blog">WhyUs</Link>
+                    <Link href="/Team">Team</Link>
+                    <Link href="/Testimonial">Testimonial</Link> */}
+                    
+
                     <li><a href='#'>Home</a></li>
                     <li><a href='#'>About</a></li>
                     <li><a href='#'>Services</a></li>
