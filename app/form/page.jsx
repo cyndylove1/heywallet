@@ -60,7 +60,7 @@ import Navbar from '../Navbar/page'
                        
                         <h6>Not a member?<span><a href="./Sign">Sign Up</a></span></h6>
                         <button className="form-btn">Login</button>
-                        <h6 className="forget-password">ForgetPassword?</h6>
+                        {/* <h6 className="forget-password">ForgetPassword?</h6> */}
                     </form> 
             </div>
         </div>
